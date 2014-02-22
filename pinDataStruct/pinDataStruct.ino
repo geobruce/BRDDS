@@ -1,6 +1,7 @@
 struct pin
 {
-  byte mode; /// 0 = output, 1 input
+  boolean enabled; // 
+  char mode; /// d = digitalOutput, i = digital input, p = analog output (pwm)(0-255), a = analog input(0-1023)
   int value;
 };
 
@@ -46,6 +47,3 @@ void loop() {
   delay(1000);
   //Serial.println();
 }
-
-
-
