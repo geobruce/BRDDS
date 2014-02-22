@@ -17,7 +17,7 @@ Initisialise it:
 Set a pin:
 	objectName.Pin(pinNumber);
 Get a pin:
-	int pinNumber = objectName();
+	int pinNumber = Pin.objectName();
 	
 char Mode(char mode = '0');//see pin and initialise
 
