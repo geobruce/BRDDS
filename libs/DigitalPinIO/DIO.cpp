@@ -84,6 +84,7 @@ int DIO::Value(int value){
   if(value == -1){//-1 is default value = get
 
     if(_mode=='i'){
+	  //DIO::Refresh();
       _value = digitalRead(_pin);
       return _value;
     }

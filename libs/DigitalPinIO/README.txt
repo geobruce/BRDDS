@@ -26,6 +26,6 @@ int Enabled(int enabled = -1);//see pin and initialise
 int Value(int value = -1);//see pin and initialise
 
 bool refresh();
-	checks if the input on the pin has changed
+	checks if the input on the pin has changed since last refresh()
 	if so it will update the .Value
 	and the function will also return 1
